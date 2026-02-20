@@ -1,0 +1,11 @@
+Minimal XOR architecture search (all use Sigmoid hidden + Sigmoid output, BCE loss)
+Format: hidden_size | lr | epochs | final_acc | final_loss
+
+         1 | 0.1 | 2000  | 0.7500   | 0.688078
+         1 | 0.5 | 2000  | 0.7500   | 0.487568
+         1 | 1.0 | 2000  | 0.7500   | 0.481066
+         2 | 0.1 | 2000  | 0.5000   | 0.693028
+         2 | 0.5 | 2000  | 0.7500   | 0.444440
+         2 | 1.0 | 2000  | 1.0000   | 0.010350
+
+Chosen minimal architecture is the smallest hidden_size achieving 100% accuracy.

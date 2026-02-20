@@ -1,0 +1,7 @@
+Final Train Loss: 0.3609
+Final Validation Loss: 0.3564
+Final Validation Accuracy: 0.8667
+Test Accuracy: 0.8400
+Confusion Matrix:
+[[32  4]
+ [ 8 31]]
